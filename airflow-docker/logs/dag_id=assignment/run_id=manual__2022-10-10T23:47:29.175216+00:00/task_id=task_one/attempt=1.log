@@ -1,0 +1,162 @@
+[2022-10-10T23:47:39.791+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: assignment.task_one manual__2022-10-10T23:47:29.175216+00:00 [queued]>
+[2022-10-10T23:47:39.809+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: assignment.task_one manual__2022-10-10T23:47:29.175216+00:00 [queued]>
+[2022-10-10T23:47:39.811+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-10T23:47:39.812+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-10-10T23:47:39.813+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-10T23:47:39.829+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): task_one> on 2022-10-10 23:47:29.175216+00:00
+[2022-10-10T23:47:39.841+0000] {standard_task_runner.py:54} INFO - Started process 161 to run task
+[2022-10-10T23:47:39.844+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'assignment', 'task_one', 'manual__2022-10-10T23:47:29.175216+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/assignment.py', '--cfg-path', '/tmp/tmpt43gcir7']
+[2022-10-10T23:47:39.847+0000] {standard_task_runner.py:83} INFO - Job 9: Subtask task_one
+[2022-10-10T23:47:39.852+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/assignment.py
+[2022-10-10T23:47:39.973+0000] {task_command.py:384} INFO - Running <TaskInstance: assignment.task_one manual__2022-10-10T23:47:29.175216+00:00 [running]> on host f7cb6ffd90da
+[2022-10-10T23:47:40.039+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=assignment
+AIRFLOW_CTX_TASK_ID=task_one
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-10T23:47:29.175216+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-10T23:47:29.175216+00:00
+[2022-10-10T23:47:40.921+0000] {logging_mixin.py:117} INFO - wrote file: m1a.html
+[2022-10-10T23:47:40.929+0000] {logging_mixin.py:117} INFO - pulled: m1a.html
+[2022-10-10T23:47:40.932+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:47:56.337+0000] {logging_mixin.py:117} INFO - wrote file: m1b.html
+[2022-10-10T23:47:56.341+0000] {logging_mixin.py:117} INFO - pulled: m1b.html
+[2022-10-10T23:47:56.342+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:48:11.812+0000] {logging_mixin.py:117} INFO - wrote file: m1c.html
+[2022-10-10T23:48:11.823+0000] {logging_mixin.py:117} INFO - pulled: m1c.html
+[2022-10-10T23:48:11.829+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:48:27.273+0000] {logging_mixin.py:117} INFO - wrote file: m2a.html
+[2022-10-10T23:48:27.282+0000] {logging_mixin.py:117} INFO - pulled: m2a.html
+[2022-10-10T23:48:27.285+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:48:42.809+0000] {logging_mixin.py:117} INFO - wrote file: m2b.html
+[2022-10-10T23:48:42.811+0000] {logging_mixin.py:117} INFO - pulled: m2b.html
+[2022-10-10T23:48:42.812+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:48:58.227+0000] {logging_mixin.py:117} INFO - wrote file: m2c.html
+[2022-10-10T23:48:58.243+0000] {logging_mixin.py:117} INFO - pulled: m2c.html
+[2022-10-10T23:48:58.247+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:49:13.699+0000] {logging_mixin.py:117} INFO - wrote file: m3a.html
+[2022-10-10T23:49:13.708+0000] {logging_mixin.py:117} INFO - pulled: m3a.html
+[2022-10-10T23:49:13.711+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:49:29.110+0000] {logging_mixin.py:117} INFO - wrote file: m3b.html
+[2022-10-10T23:49:29.121+0000] {logging_mixin.py:117} INFO - pulled: m3b.html
+[2022-10-10T23:49:29.127+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:49:44.521+0000] {logging_mixin.py:117} INFO - wrote file: m4a.html
+[2022-10-10T23:49:44.545+0000] {logging_mixin.py:117} INFO - pulled: m4a.html
+[2022-10-10T23:49:44.552+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:49:59.927+0000] {logging_mixin.py:117} INFO - wrote file: m4b.html
+[2022-10-10T23:49:59.937+0000] {logging_mixin.py:117} INFO - pulled: m4b.html
+[2022-10-10T23:49:59.939+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:50:15.299+0000] {logging_mixin.py:117} INFO - wrote file: m4c.html
+[2022-10-10T23:50:15.303+0000] {logging_mixin.py:117} INFO - pulled: m4c.html
+[2022-10-10T23:50:15.305+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:50:30.698+0000] {logging_mixin.py:117} INFO - wrote file: m4d.html
+[2022-10-10T23:50:30.708+0000] {logging_mixin.py:117} INFO - pulled: m4d.html
+[2022-10-10T23:50:30.710+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:50:46.066+0000] {logging_mixin.py:117} INFO - wrote file: m4e.html
+[2022-10-10T23:50:46.081+0000] {logging_mixin.py:117} INFO - pulled: m4e.html
+[2022-10-10T23:50:46.085+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:51:01.479+0000] {logging_mixin.py:117} INFO - wrote file: m4f.html
+[2022-10-10T23:51:01.484+0000] {logging_mixin.py:117} INFO - pulled: m4f.html
+[2022-10-10T23:51:01.488+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:51:16.769+0000] {logging_mixin.py:117} INFO - wrote file: m4g.html
+[2022-10-10T23:51:16.789+0000] {logging_mixin.py:117} INFO - pulled: m4g.html
+[2022-10-10T23:51:16.803+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:51:32.194+0000] {logging_mixin.py:117} INFO - wrote file: m5a.html
+[2022-10-10T23:51:32.201+0000] {logging_mixin.py:117} INFO - pulled: m5a.html
+[2022-10-10T23:51:32.203+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:51:47.691+0000] {logging_mixin.py:117} INFO - wrote file: m5b.html
+[2022-10-10T23:51:47.702+0000] {logging_mixin.py:117} INFO - pulled: m5b.html
+[2022-10-10T23:51:47.705+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:52:03.370+0000] {logging_mixin.py:117} INFO - wrote file: m6a.html
+[2022-10-10T23:52:03.400+0000] {logging_mixin.py:117} INFO - pulled: m6a.html
+[2022-10-10T23:52:03.416+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:52:18.862+0000] {logging_mixin.py:117} INFO - wrote file: m6b.html
+[2022-10-10T23:52:18.864+0000] {logging_mixin.py:117} INFO - pulled: m6b.html
+[2022-10-10T23:52:18.865+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:52:34.261+0000] {logging_mixin.py:117} INFO - wrote file: m6c.html
+[2022-10-10T23:52:34.274+0000] {logging_mixin.py:117} INFO - pulled: m6c.html
+[2022-10-10T23:52:34.276+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:52:49.925+0000] {logging_mixin.py:117} INFO - wrote file: m7a.html
+[2022-10-10T23:52:49.952+0000] {logging_mixin.py:117} INFO - pulled: m7a.html
+[2022-10-10T23:52:49.965+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:53:05.359+0000] {logging_mixin.py:117} INFO - wrote file: m8a.html
+[2022-10-10T23:53:05.376+0000] {logging_mixin.py:117} INFO - pulled: m8a.html
+[2022-10-10T23:53:05.384+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:53:20.857+0000] {logging_mixin.py:117} INFO - wrote file: m8b.html
+[2022-10-10T23:53:20.875+0000] {logging_mixin.py:117} INFO - pulled: m8b.html
+[2022-10-10T23:53:20.899+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:53:36.337+0000] {logging_mixin.py:117} INFO - wrote file: m9a.html
+[2022-10-10T23:53:36.339+0000] {logging_mixin.py:117} INFO - pulled: m9a.html
+[2022-10-10T23:53:36.340+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:53:51.710+0000] {logging_mixin.py:117} INFO - wrote file: m9b.html
+[2022-10-10T23:53:51.718+0000] {logging_mixin.py:117} INFO - pulled: m9b.html
+[2022-10-10T23:53:51.720+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:54:07.234+0000] {logging_mixin.py:117} INFO - wrote file: m10a.html
+[2022-10-10T23:54:07.242+0000] {logging_mixin.py:117} INFO - pulled: m10a.html
+[2022-10-10T23:54:07.244+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:54:23.680+0000] {logging_mixin.py:117} INFO - wrote file: m10b.html
+[2022-10-10T23:54:23.703+0000] {logging_mixin.py:117} INFO - pulled: m10b.html
+[2022-10-10T23:54:23.710+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:54:39.148+0000] {logging_mixin.py:117} INFO - wrote file: m11a.html
+[2022-10-10T23:54:39.165+0000] {logging_mixin.py:117} INFO - pulled: m11a.html
+[2022-10-10T23:54:39.170+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:54:54.508+0000] {logging_mixin.py:117} INFO - wrote file: m11b.html
+[2022-10-10T23:54:54.514+0000] {logging_mixin.py:117} INFO - pulled: m11b.html
+[2022-10-10T23:54:54.515+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:55:10.341+0000] {logging_mixin.py:117} INFO - wrote file: m11c.html
+[2022-10-10T23:55:10.346+0000] {logging_mixin.py:117} INFO - pulled: m11c.html
+[2022-10-10T23:55:10.348+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:55:25.787+0000] {logging_mixin.py:117} INFO - wrote file: m12a.html
+[2022-10-10T23:55:25.791+0000] {logging_mixin.py:117} INFO - pulled: m12a.html
+[2022-10-10T23:55:25.794+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:55:41.151+0000] {logging_mixin.py:117} INFO - wrote file: m12b.html
+[2022-10-10T23:55:41.155+0000] {logging_mixin.py:117} INFO - pulled: m12b.html
+[2022-10-10T23:55:41.165+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:55:56.732+0000] {logging_mixin.py:117} INFO - wrote file: m12c.html
+[2022-10-10T23:55:56.739+0000] {logging_mixin.py:117} INFO - pulled: m12c.html
+[2022-10-10T23:55:56.744+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:56:12.524+0000] {logging_mixin.py:117} INFO - wrote file: m14a.html
+[2022-10-10T23:56:12.587+0000] {logging_mixin.py:117} INFO - pulled: m14a.html
+[2022-10-10T23:56:12.685+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:56:28.074+0000] {logging_mixin.py:117} INFO - wrote file: m14b.html
+[2022-10-10T23:56:28.081+0000] {logging_mixin.py:117} INFO - pulled: m14b.html
+[2022-10-10T23:56:28.084+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:56:43.535+0000] {logging_mixin.py:117} INFO - wrote file: m15a.html
+[2022-10-10T23:56:43.548+0000] {logging_mixin.py:117} INFO - pulled: m15a.html
+[2022-10-10T23:56:43.550+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:56:59.171+0000] {logging_mixin.py:117} INFO - wrote file: m15b.html
+[2022-10-10T23:56:59.175+0000] {logging_mixin.py:117} INFO - pulled: m15b.html
+[2022-10-10T23:56:59.176+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:57:14.773+0000] {logging_mixin.py:117} INFO - wrote file: m15c.html
+[2022-10-10T23:57:14.782+0000] {logging_mixin.py:117} INFO - pulled: m15c.html
+[2022-10-10T23:57:14.784+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:57:30.240+0000] {logging_mixin.py:117} INFO - wrote file: m16a.html
+[2022-10-10T23:57:30.251+0000] {logging_mixin.py:117} INFO - pulled: m16a.html
+[2022-10-10T23:57:30.254+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:57:45.684+0000] {logging_mixin.py:117} INFO - wrote file: m16b.html
+[2022-10-10T23:57:45.707+0000] {logging_mixin.py:117} INFO - pulled: m16b.html
+[2022-10-10T23:57:45.711+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:58:01.264+0000] {logging_mixin.py:117} INFO - wrote file: m18a.html
+[2022-10-10T23:58:01.273+0000] {logging_mixin.py:117} INFO - pulled: m18a.html
+[2022-10-10T23:58:01.277+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:58:16.688+0000] {logging_mixin.py:117} INFO - wrote file: m18b.html
+[2022-10-10T23:58:16.699+0000] {logging_mixin.py:117} INFO - pulled: m18b.html
+[2022-10-10T23:58:16.701+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:58:32.161+0000] {logging_mixin.py:117} INFO - wrote file: m20a.html
+[2022-10-10T23:58:32.173+0000] {logging_mixin.py:117} INFO - pulled: m20a.html
+[2022-10-10T23:58:32.181+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:58:47.556+0000] {logging_mixin.py:117} INFO - wrote file: m22a.html
+[2022-10-10T23:58:47.569+0000] {logging_mixin.py:117} INFO - pulled: m22a.html
+[2022-10-10T23:58:47.574+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:59:02.875+0000] {logging_mixin.py:117} INFO - wrote file: m22b.html
+[2022-10-10T23:59:02.889+0000] {logging_mixin.py:117} INFO - pulled: m22b.html
+[2022-10-10T23:59:02.891+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:59:18.196+0000] {logging_mixin.py:117} INFO - wrote file: m22c.html
+[2022-10-10T23:59:18.203+0000] {logging_mixin.py:117} INFO - pulled: m22c.html
+[2022-10-10T23:59:18.205+0000] {logging_mixin.py:117} INFO - --- waiting ---
+[2022-10-10T23:59:33.235+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-10-10T23:59:33.398+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=assignment, task_id=task_one, execution_date=20221010T234729, start_date=20221010T234739, end_date=20221010T235933
+[2022-10-10T23:59:33.671+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-10-10T23:59:33.816+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
